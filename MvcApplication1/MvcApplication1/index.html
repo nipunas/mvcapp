@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.7.1.intellisense.js"></script>
+    <script src="Scripts/jquery-1.7.1.min.js"></script>
+    
+</head>
+<body>
+    <div>
+        <span>Username </span>
+        <input type="text" id="user-name" value="test user" />
+        <input type="button" id="submit" value="Submit" />
+    </div>
+
+    <div id="out-put">
+    </div>
+
+    <script type="text/javascript">
+        function submitValue() {
+            var username = $('#user-name').val();
+            $.getJSON('User/GetUserInformation?username=' + username, function (data) {
+                $.each(data, function (index, value) {
+                    $('#out-put').append(index + ' = ' + value + '</br>');
+                });
+            });
+        }
+
+        $('#submit').on('click', submitValue);
+
+    </script>
+
+
+</body>
+</html>

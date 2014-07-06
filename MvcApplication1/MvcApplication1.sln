@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication1", "MvcApplication1\MvcApplication1.csproj", "{838F7C52-E66C-4CE3-AB53-53F8BD7665E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operations", "Operations\Operations.csproj", "{2FE9914D-2BE7-4C58-BCD8-9F13DCD89D71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{838F7C52-E66C-4CE3-AB53-53F8BD7665E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838F7C52-E66C-4CE3-AB53-53F8BD7665E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838F7C52-E66C-4CE3-AB53-53F8BD7665E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838F7C52-E66C-4CE3-AB53-53F8BD7665E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE9914D-2BE7-4C58-BCD8-9F13DCD89D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE9914D-2BE7-4C58-BCD8-9F13DCD89D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE9914D-2BE7-4C58-BCD8-9F13DCD89D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE9914D-2BE7-4C58-BCD8-9F13DCD89D71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
